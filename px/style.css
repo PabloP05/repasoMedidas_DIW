@@ -1,0 +1,45 @@
+
+body{
+    width: 1260px; /* total 1260px  */
+    height: 500px;
+    margin: 45px auto;
+    
+}
+
+/* LAYAUT  DE LA ESTRUCTURA */
+
+#cajaContenedora{
+    width: 1220px;
+    padding: 0 20px; /* padding a derecha e izquierda de 20px */
+    background-color: tomato;
+    display: flow-root;
+    
+}
+    /* CAJAS INTERIORES */
+
+#cajaIZ{
+    background-color: aqua;
+    width: 780px;
+    height: 370px;
+    padding: 30px 10px 0 10px;
+    margin-right: 20px;
+    float: left;
+
+    p{
+        text-align: justify;
+    }
+}
+#cajaDR{
+    background-color: darkorange;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+    /* FOOTER */
+footer{
+    width: 1260px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+
