@@ -9,6 +9,9 @@
         
         #foto{
             width: 60%;
+            img{
+                width: auto;
+            }
         }
     }
     #cajaIZ{
