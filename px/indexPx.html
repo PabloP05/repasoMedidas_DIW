@@ -7,6 +7,16 @@
     <title>Pagina en px</title>
 </head>
 <body>
+    <header>
+        <h1>Pruebas de maquetación con HTML y CSS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Boton 1</a></li>
+            <li><a href="">Boton 2</a></li>
+            <li id="inicioSesion"><a href="">Iniciar sesion</a></li>
+        </ul>
+    </nav>
     <div id="cajaContenedora">
         <div id="cajaIZ" class="cjasContenedoras">
             <p>
@@ -16,13 +26,23 @@
                 Sin embargo, el uso exclusivo de pixeles puede afectar la adaptabilidad y accesibilidad de la pagina en diferentes dispositivos y resoluciones de pantalla. 
                 Es importante considerar el uso de unidades relativas como porcentajes o ems para mejorar la experiencia del usuario en una variedad de dispositivos.
             </p>
+            <form action="">
+                <label for="nombre">Nombre :</label>
+                <input type="text" name="nombre">
+                <label for="correo">Correo : </label>
+                <input type="text" name="correo" id="">
+                <input type="submit" value="Enviar">
+            </form>
+
         </div>
         <div id="cajaDR" class="cjasContenedoras">
-
+            <div id="foto">
+                <img src="../img/foto.png" alt="">
+            </div>
         </div>
     </div>
     <footer>
-
+        <p>2026 -  Ejercicio básico maquetación</p>
     </footer>
 </body>
 </html>
